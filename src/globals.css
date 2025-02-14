@@ -1,0 +1,46 @@
+@keyframes pulse-slow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.6; }
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  /* Pro hladké scrollování */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Debug styly - můžete je dočasně zapnout pro kontrolu layoutu */
+  .debug * {
+    outline: 1px solid rgba(255, 0, 0, 0.1);
+  }
+  
+  /* Základní reset a styly */
+  body {
+    background-color: #0a0a0a;
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Vylepšení scrollování */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* Lepší přechody */
+  .transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+  
+  /* Vylepšení pro karty projektů */
+  .project-card {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
