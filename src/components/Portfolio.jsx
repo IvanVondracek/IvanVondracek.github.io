@@ -119,6 +119,7 @@ export default function Portfolio() {
           </h1>
           <p className="text-xl text-gray-300 mb-6 max-w-2xl mx-auto relative z-20">
             Zaměřuji se na webové aplikace, IoT, ESP32, Arduino, laserové gravírování, 3D tisk a modelování.<br/>
+
             Vytvářím inovativní řešení pro reálné problémy.
           </p>
         </motion.div>
@@ -127,7 +128,7 @@ export default function Portfolio() {
       <section className="py-12 px-6 relative z-10">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold mb-10 text-center bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent relative z-20">
-          Technologie, které mě definují a baví
+          Technologie, které mě baví
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative z-20">
