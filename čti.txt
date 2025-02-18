@@ -1,6 +1,0 @@
-tak né potřeboval jsem toto
-git checkout main 
-Pro zobrazení souborů jak jsem je měl 
-
-git checkout gh-pages
-Pro převod na GitHubPages
