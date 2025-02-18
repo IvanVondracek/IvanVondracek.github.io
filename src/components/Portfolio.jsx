@@ -119,7 +119,7 @@ export default function Portfolio() {
           </h1>
           <p className="text-xl text-gray-300 mb-6 max-w-2xl mx-auto relative z-20">
             Zaměřuji se na webové aplikace, IoT, ESP32, Arduino, laserové gravírování, 3D tisk a modelování.<br/>
-            Vytvářím inovativní řešení pro reálné problémy...
+            Vytvářím inovativní řešení pro reálné problémy.
           </p>
         </motion.div>
       </section>
