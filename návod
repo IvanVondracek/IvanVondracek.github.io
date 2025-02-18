@@ -1,0 +1,45 @@
+1️⃣ Přepnutí na hlavní větev (main)
+Než začneš dělat úpravy, ujisti se, že jsi na hlavní větvi:
+
+
+git checkout main
+git pull origin main
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+2️⃣ Upravení souborů
+Proveď požadované změny v kódu (např. v src/Portfolio.jsx).
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+3️⃣ Uložení změn do Gitu
+Jakmile jsi hotový, přidej změny a ulož je:
+
+git add .
+git commit -m "Popis změn, např. Aktualizace sekce Portfolio"
+git push origin main
+To nahraje změny do GitHub repozitáře.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+4️⃣ Vytvoření nového buildu
+Spusť příkaz pro sestavení projektu:
+
+npm run build
+Tím se vytvoří složka dist, která obsahuje hotovou verzi pro nasazení.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+5️⃣ Nasazení na gh-pages
+Přepni se do větve gh-pages:
+
+git checkout gh-pages
+git pull origin gh-pages
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+Nahraj změny:
+
+git add .
+git commit -m "Nasazení nové verze"
+git push origin gh-pages --force
